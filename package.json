@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "l2d-vue": "^1.0.0",
+    "l2d-vue": "^1.0.1",
     "vue": "^3.2.45"
   },
   "devDependencies": {

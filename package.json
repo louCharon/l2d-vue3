@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@types/node": "^18.15.11",
     "l2d-vue": "^1.0.1",
     "vue": "^3.2.45"
   },

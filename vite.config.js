@@ -1,6 +1,7 @@
 import { defineConfig, loadEnv } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import {createHtmlPlugin} from 'vite-plugin-html';
+import path from 'path';
 // https://vitejs.dev/config/
 export default ({
   mode
@@ -11,6 +12,11 @@ export default ({
       vue(),
     createHtmlPlugin(), // 处理 HTML 文件
   ],
+  resolve: {
+    alias: {
+      '@': path.resolve(__dirname, 'src'),
+    },
+  },
   define: {
     'process.env': {mode: mode, api: loadEnv(mode, process.cwd()).VITE_MODEL}
   },

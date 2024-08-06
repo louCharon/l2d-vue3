@@ -1,6 +1,6 @@
 {
     "models": [
         {"name": "chitose", "path": "models/chitose/chitose.model.json"},
-        {"name": "shizuku", "path": "models/shizuku/shizuku.model.json"},
+        {"name": "shizuku", "path": "models/shizuku/shizuku.model.json"}
     ]
 }

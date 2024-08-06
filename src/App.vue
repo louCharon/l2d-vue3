@@ -1,7 +1,7 @@
 <script setup="">
 import {onMounted} from "vue";
 import live2d from 'l2d-vue'
-import json from '../src/assets/model_list.json'
+import json from '@/assets/model_list.json'
 onMounted(() => {
 
   live2d.l2dInitSetting({modelAPI: process.env.api, modelList: json.models, waifuSize: '250x360'})

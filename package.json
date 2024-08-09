@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@types/node": "^18.15.11",
+    "@vueuse/core": "^10.11.1",
     "l2d-vue": "^1.0.1",
     "vue": "^3.2.45"
   },

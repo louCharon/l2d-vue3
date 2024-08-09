@@ -1,6 +1,20 @@
 {
     "models": [
-        {"name": "chitose", "path": "models/chitose/chitose.model.json"},
-        {"name": "shizuku", "path": "models/shizuku/shizuku.model.json"}
+
+        {"name": "shizuku", "path": "shizuku/shizuku.model.json"},
+        {"name": "xiaomai", "path": "xiaomai/xiaomai.model.json"},
+        {"name": "wanko", "path": "wanko/wanko.model.json"},
+        {"name": "sagiri", "path": "sagiri/sagiri.model.json"},
+        {"name": "Epsilon2.1", "path": "Epsilon2.1/Epsilon2.1.model.json"},
+        {"name": "haru", "path": "haru/haru.model.json"},
+        {"name": "katou_01", "path": "katou_01/katou_01.model.json"},
+        {"name": "liang", "path": "liang/liang.model.json"},
+        {"name": "Pio", "path": "Pio/Pio.model.json"},
+        {"name": "remu", "path": "remu/remu.model.json"},
+        {"name": "chitose", "path": "chitose/chitose.model.json"},
+        {"name": "hibiki", "path": "hibiki/hibiki.model.json"},
+        {"name": "izumi", "path": "izumi/izumi.model.json"},
+        {"name": "tsumiki", "path": "tsumiki/tsumiki.model.json"},
+        {"name": "unitychan", "path": "unitychan/unitychan.model.json"}
     ]
 }
